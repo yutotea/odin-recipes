@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 70px;
+ }   
+
+ ul {
+    font-size: 30px;
+    line-height: 70px;
+ }
+
