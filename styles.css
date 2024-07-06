@@ -1,16 +1,58 @@
 body {
-    background-color: bisque;
+    background-color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 
 h1 {
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 70px;
+    font-size: 140px;
+    width: 1200px;
+    margin: 60px auto;
+    text-align: center;
  }   
 
  ul {
-    font-size: 30px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 100px;
  }
 
+ .recipe-card {
+    margin: 30px auto;
+    border: 5px solid rgb(215, 199, 144);
+    width: 900px;
+    height: 410px;
+    background-color: rgb(253, 253, 253);
+ }
+
+.recipe-content {
+    width: 1000px;
+    margin: -40px 0px 0px -30px;
+}
+
+li {
+    display: inline-block;
+    margin: 40px 0px 0px -10px;
+}
+
+
+ img {
+    height: 200px;
+    width: 200px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0px 0px 0px 20px;
+ }
+
+
+.michelin-star {
+    display: inline-block;
+}
+
+.michelin-star img{
+    height: 130px;
+    width: 225px;
+    margin: -20px 0px 0px 120px;
+    border: 10px solid rgb(215, 199, 144);
+}
